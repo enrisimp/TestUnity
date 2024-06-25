@@ -1,0 +1,366 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16281 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker122
+-projectPath
+Z:/UNITY/New Unity Project
+-logFile
+Logs/AssetImportWorker122.log
+-srvPort
+50443
+Successfully changed project path to: Z:/UNITY/New Unity Project
+Z:/UNITY/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14680] Host "[IP] 192.168.0.219 [Port] 0 [Flags] 2 [Guid] 3992379192 [EditorId] 3992379192 [Version] 1048832 [Id] WindowsEditor(7,WinEnri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14680] Host "[IP] 192.168.0.219 [Port] 0 [Flags] 2 [Guid] 3992379192 [EditorId] 3992379192 [Version] 1048832 [Id] WindowsEditor(7,WinEnri) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+      6852 1ac8 -
+      6852 1218 -
+      6852 124c -
+     10928 5a8 -
+     11316 3a2c -
+     22256 56f4 -
+     22124 5670 -
+     20572 720 -
+     21064 b18 -
+     17368 4508 -
+     23572 be0 -
+     20300 4ea8 -
+     22848 4f74 -
+     12276 5e84 -
+     22200 4744 -
+     19356 53f0 -
+      3896 3b90 -
+     21748 5bd0 -
+      5088 5340 -
+      8764 16d0 -
+     20988 5c8c -
+     21076 3698 -
+     21996 2770 -
+      3404 2384 -
+      9720 32d0 -
+     21920 4bd8 -
+     23800 3a0c -
+     21420 28f0 -
+      7472 4a74 -
+     11344 55b0 -
+     20292 5524 -
+     19760 5c18 -
+     20956 1ccc -
+      9100 3138 -
+     20120 54c0 -
+      1104 3904 -
+     19712 33b8 -
+     23436 50b4 -
+     23440 5238 -
+      6060 5d54 -
+      6600 2a84 -
+     14500 39c0 -
+      7132 a74 -
+     21188 2210 -
+     22292 5cbc -
+     20356 590c -
+     19720 5c7c -
+     12996 4d20 -
+     18052 4f00 -
+     23768 4300 -
+     23756 5264 -
+     23296 4b14 -
+     23880 58fc -
+     23352 5f60 -
+     22604 5054 -
+     21636 a44 -
+     23392 864 -
+      6544 56ec -
+     12020 35ec -
+     23324 2f20 -
+     11652 15ec -
+      4520 305c -
+     21120 2538 -
+     23084 56cc -
+     22484 5810 -
+     12580 4c38 -
+     21804 4da0 -
+      7740 5e5c -
+     21208 29ec -
+     13820 664 -
+     24136 2ae0 -
+      3988 57a4 -
+     15032 56e4 -
+     19848 1e10 -
+     21328 3e70 -
+     13076 1b30 -
+     21836 59f8 -
+      1172 4d44 -
+      7432 5f7c -
+     14040 5c60 -
+      2588 4e78 -
+     17092 ab8 -
+     12568 5df8 -
+     20976 5d08 -
+      5308 35e0 421
+      3684 542c -
+     19688 5f4c -
+     21460 b88 -
+     20968 3d00 -
+     17868 5a34 -
+     24564 bdc -
+     22980 1bc4 -
+     11860 3994 -
+      2584 79c -
+      7824 4ccc -
+     22008 3a5c -
+     10680 5a3c -
+     22000 3690 -
+     21496 4c78 -
+      7516 29c8 -
+     11596 5984 -
+     13084 189c -
+     23244 3f6c -
+      3760 3614 -
+     24364 5a78 -
+     12208 5dd8 -
+     10324 5b68 -
+     16412 294 -
+     20044 1b84 -
+     22196 714 -
+     22492 54f0 -
+     21320 51e0 -
+     24496 5440 -
+     21428 4ee0 -
+      7092 2de8 -
+      8664 6ec -
+     21116 5418 -
+     20236 5de4 -
+      7948 5ee8 -
+     24420 5af4 -
+     23316 5d4c -
+      9656 5b30 -
+     23680 c84 -
+     21988 4154 -
+      7260 4c58 -
+      8448 5ffc -
+Cleaned out 122 stale readers
+mdb reader table full -> cleaning up stale readers. Current readers:
+    pid     thread     txnid
+      6852 1ac8 -
+      6852 4f58 -
+      6852 8f4 -
+     10928 5a8 -
+     11316 3a2c -
+     22124 5670 -
+     22256 56f4 -
+     20572 720 -
+     21064 b18 -
+     17368 4508 -
+     23572 be0 -
+     22848 4f74 -
+     20300 4ea8 -
+     12276 5e84 -
+     22200 4744 -
+     19356 53f0 -
+      3896 3b90 -
+      5088 5340 -
+     21748 5bd0 -
+      8764 16d0 -
+     20988 5c8c -
+     21076 3698 -
+     21996 2770 -
+      9720 32d0 -
+      3404 2384 -
+     23800 3a0c -
+     21920 4bd8 -
+      7472 4a74 -
+     21420 28f0 -
+     11344 55b0 -
+     20292 5524 -
+     20956 1ccc -
+     19760 5c18 -
+      9100 3138 -
+     20120 54c0 -
+      1104 3904 -
+     19712 33b8 -
+     23440 5238 -
+     23436 50b4 -
+      6600 2a84 -
+      6060 5d54 -
+      7132 a74 -
+     14500 39c0 -
+     22292 5cbc -
+     21188 2210 -
+     19720 5c7c -
+     20356 590c -
+     12996 4d20 -
+     18052 4f00 -
+     23768 4300 -
+     23756 5264 -
+     23296 4b14 -
+     23880 58fc -
+     22604 5054 -
+     23352 5f60 -
+     21636 a44 -
+     23392 864 -
+     12020 35ec -
+      6544 56ec -
+     23324 2f20 -
+     11652 15ec -
+      4520 305c -
+     21120 2538 -
+     23084 56cc -
+     22484 5810 -
+     21804 4da0 -
+     12580 4c38 -
+      7740 5e5c -
+     21208 29ec -
+     13820 664 -
+     24136 2ae0 -
+      3988 57a4 -
+     15032 56e4 -
+     21328 3e70 -
+     19848 1e10 -
+     13076 1b30 -
+     21836 59f8 -
+      1172 4d44 -
+      7432 5f7c -
+     14040 5c60 -
+      2588 4e78 -
+     12568 5df8 -
+     17092 ab8 -
+      5308 35e0 -
+     20976 5d08 -
+     19688 5f4c -
+      3684 542c -
+     20968 3d00 -
+     21460 b88 -
+     24564 bdc -
+     17868 5a34 -
+     22980 1bc4 -
+     11860 3994 -
+      2584 79c -
+      7824 4ccc -
+     10680 5a3c -
+     22008 3a5c -
+     21496 4c78 -
+     22000 3690 -
+     11596 5984 -
+      7516 29c8 -
+     23244 3f6c -
+     13084 189c -
+     24364 5a78 -
+      3760 3614 -
+     12208 5dd8 -
+     10324 5b68 -
+     20044 1b84 -
+     16412 294 -
+     22492 54f0 -
+     22196 714 -
+     24496 5440 -
+     21320 51e0 -
+      7092 2de8 -
+     21428 4ee0 -
+      8664 6ec -
+     21116 5418 -
+     20236 5de4 -
+      7948 5ee8 -
+     23316 5d4c -
+     24420 5af4 -
+      9656 5b30 -
+     23680 c84 -
+      7260 4c58 -
+     21988 4154 -
+      8448 5ffc -
+Cleaned out 122 stale readers
+Refreshing native plugins compatible for Editor in 1169.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/UNITY/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021722 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (907ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 1.849139 seconds.
